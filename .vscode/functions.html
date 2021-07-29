@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title>
+    </head>
+
+<body>
+    
+    <input type="text" value="" onclick="change();" id="int" placeholder="enter full name"/>
+    
+
+    <script>
+        function change()
+        {
+            alert("you clicked in the text area")
+            document.getElementById("int").style.backgroundColor="red"
+        }
+    </script>
+<script>
+    var Name ="OBODAI"
+    function name()
+    {
+         var c=confirm("Your name is" +" "+ Name) ;
+         if(c)
+         {
+             alert("Okay, name confirmed");
+         }
+        else
+        {
+            var p = prompt("what's your name?","");
+            alert("hello, " + p );
+        }
+         
+    }
+
+    name();
+
+</script>
+
+
+
+
+</body>
+</html>
