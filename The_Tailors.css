@@ -1,0 +1,99 @@
+/*styling for tailors.html*/
+
+body
+{
+    background-image: url("suit1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(209, 120, 120, 0.5)),
+    rgba(29, 161, 99, 0.5), url("suit1.jpg")
+    
+    
+}
+
+
+.h1{
+    text-align: center;
+    background:wheat;
+    color:brown;
+    height: 50px;
+}
+
+
+
+
+.scissors{
+    height: 30px;
+    width: 33px;
+    border-width: thin;
+    border: 5px;
+    padding-top: 400px;
+}
+
+#outerdiv{
+    height: 900px;
+    width: auto;
+    background-color: blanchedalmond;
+    opacity: 0.3;
+    
+}
+
+.formdiv{
+    align-items: center;
+    border: 3px black;
+    display: flex;
+    justify-content: center;
+    background-color: mediumspringgreen;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 250px;
+
+}
+
+#password{
+border:navy 3px;
+border-bottom-style:ridge;
+}
+#text{
+
+}
+
+.label1{
+    color: darkblue;
+}
+
+.label2{
+    color: darkblue;
+}
+
+.login, .signup{
+    border:1px solid blue;
+    border-radius: 20px;
+    color:blueviolet;
+    background-color: red;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.signup:hover{
+    opacity: 1.0;
+    color: red;
+    background-color: blue;
+}
+
+.login:hover{
+opacity: 1.0;
+color: red;
+background-color: blue;
+}
+
+#footer{
+    height: 30px;
+    width: auto;
+    text-align: center;
+    background: darkgrey;
+}
